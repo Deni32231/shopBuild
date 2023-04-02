@@ -1,0 +1,8 @@
+.wrapper {
+  display: flex;
+}
+
+.text {
+  margin-right: 5px;
+  font-weight: 500;
+}

@@ -1,0 +1,87 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 7px 15px;
+  background-color: #ffc85e;
+  border: none;
+  border-radius: 38px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.product {
+  border: 2px solid black;
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product_btns {
+  display: flex;
+  gap: 5px;
+}
+
+.product_btn {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.modal_wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.modal > label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.modal_span {
+  margin-right: 15px;
+}
+
+.modal_input {
+  width: 200px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.modal select {
+  width: 200px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.modal_selectInput {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}

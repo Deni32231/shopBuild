@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  color: #3f4e65;
+  font-weight: 300;
+  padding: 0 10px;
+  opacity: 0.5;
+  border-left: 1px dashed #3f4e65;
+}
+
+.item:first-child {
+  padding-left: 0;
+  border-left: none;
+}
